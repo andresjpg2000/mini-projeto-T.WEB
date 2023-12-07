@@ -1,0 +1,9 @@
+NAO USAR VALORES PX NO CSS PARA O SITE FICAR RESPONSIVO
+
+RECOMENDADO: 
+flow with typhography
+REM
+padding = font size do header POR EXEMPLO
+HERO ----- font-size: calc(100vw /1920 * 10)
+SON ---- font-size: x rem;
+		

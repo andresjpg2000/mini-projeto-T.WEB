@@ -1,0 +1,7 @@
+@import url(./variables.css);
+@import url(./homepage.css);
+@import url(./navigation.css);
+
+exemplo_variavel {
+    color: var(--blue);
+}
