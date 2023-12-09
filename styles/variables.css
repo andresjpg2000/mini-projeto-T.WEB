@@ -1,3 +1,6 @@
 :root {
-    --blue: #2559c998;
+    --primary-nav-bg-color: #DDE7C7;
+    --font-color-nav: #77BFA3;
+    --nav-hover: #98C9A3;
+    --nav-hover-bg: #EDEEC9;
 }

@@ -1,0 +1,22 @@
+.menu {
+    background-color: var(--primary-nav-bg-color);
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    height: 3.5rem;
+}
+.menu a {
+    color: var(--font-color-nav);
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 3.5rem;
+}
+
+.menu a:hover {
+    background-color: var(--nav-hover-bg);
+    color: var(--nav-hover);
+}
