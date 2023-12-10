@@ -112,6 +112,13 @@ footer {
         justify-content: center;
         text-align: center;
 }
+.div3 a {
+    text-decoration: none;
+}
+.div3 a:visited {
+    text-decoration: none;
+    color: inherit;
+}
 .div4 { 
         grid-area: 2 / 2 / 3 / 5;
         background-color: white;
