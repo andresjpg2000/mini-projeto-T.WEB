@@ -3,21 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>JesusCookingBook</title>
 </head>
 <body>
-    <nav class="menu" id="menuTOP">
-        <div class="menuBOT">
-            <a href="index.html" >HOME</a>
-            <a href="./assets/explore.html">EXPLORE</a>
-            <a href="./assets/recipes.html">RECIPES</a>
-            <a href="./assets/about.html">ABOUT US</a>
+    <header class="header">
+        
+        <div class="logo">
+            <a href="index.html">
+                <img src="./assets/images/logoipsum-332.svg" alt="logo">
+            </a>
         </div>
-        <div class="user">
-            <a href="#login">SAVED</a>
-            <a href="#login">LOGIN</a>
-        </div>
-    </nav>
+        
+        <nav class="menu">
+            
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburguer">
+
+            </div>
+            
+            <ul class="menuBOT">
+                <li><a href="index.html" >HOME</a></li>
+                <li><a href="./assets/explore.html">EXPLORE</a></li>
+                <li><a href="./assets/recipes.html">RECIPES</a></li>
+                <li><a href="./assets/about.html">ABOUT US</a></li>
+                <li><a href="#saved">SAVED</a></li>
+                <li><a href="#login">LOGIN</a></li>
+            </ul>
+        </nav>
+        
+    </header>
 </body>
 </html>

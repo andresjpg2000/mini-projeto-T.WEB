@@ -1,3 +1,22 @@
 @import url(./variables.css);
-@import url(./homepage.css);
 @import url(./navigation.css);
+
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #DDE7C7;
+}
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #77BFA3;
+    padding: 0 1.2rem;
+    transition: 0.3s;
+}
