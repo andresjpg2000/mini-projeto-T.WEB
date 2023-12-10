@@ -1,6 +1,7 @@
 @import url(./variables.css);
 @import url(./navigation.css);
 @import url(./recipes.css);
+@import url(./explore.css);
 
 * {
     font-family: Arial;
@@ -33,9 +34,6 @@ body {
 .content {
     flex: 1;
     z-index: 1000;
-}
-.content {
-    flex: 1;
 }
 footer {
     bottom: 0;
