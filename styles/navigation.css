@@ -22,7 +22,7 @@
    list-style-type: none;
 }
 .menuBOT li a {
-    color: #EDEEC9;
+    color: var(--font-color-nav);
     text-decoration: none;
     display: block;
     padding: 2.5rem 1.5rem;
@@ -31,7 +31,7 @@
     transition: 0.3s;
 }
 .menuBOT li a:hover {
-    background: #98C9A3;
+    background: var(--nav-hover);
 }
 .hamburguer {
     position: relative;
@@ -105,7 +105,7 @@
         position: fixed;
         top: 0;
         right: -18.7rem;
-        background: #77BFA3;
+        background: var(--primary-nav-bg-color);
         width: 18.7rem;
         height: 100%;
         padding-top: 4rem;

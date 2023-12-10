@@ -1,6 +1,6 @@
 :root {
-    --primary-nav-bg-color: #DDE7C7;
-    --font-color-nav: #77BFA3;
+    --main-background: #DDE7C7;
+    --primary-nav-bg-color: #77BFA3;
+    --font-color-nav: #EDEEC9;
     --nav-hover: #98C9A3;
-    --nav-hover-bg: #EDEEC9;
 }

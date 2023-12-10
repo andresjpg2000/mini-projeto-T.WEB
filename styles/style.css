@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #DDE7C7;
+    background: var(--main-background);
 }
 .header {
     position: relative;
@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #77BFA3;
+    background: var(--primary-nav-bg-color);
     padding: 0 1.2rem;
     transition: 0.3s;
 }
